@@ -102,14 +102,14 @@ class Calc{
          // The code `float square_result=c.square(operand_1);` is calling the `square` method of the
          // `Calc` class and passing `operand_1` as an argument. It assigns the returned value to the
          // variable `square_result`, which will hold the square of `operand_1`.
-         float square_result=c.square(operand_1);
-         System.out.println("Division result is : "+div_result);
+         float sqr_result=c.square(operand_1);
+         System.out.println("Division result is : "+sqr_result);
  
          // The code `float cube_result=c.cube(operand_1);` is calling the `cube` method of the `Calc`
          // class and passing `operand_1` as an argument. It assigns the returned value to the variable
          // `cube_result`, which will hold the cube of `operand_1`.
          float cube_result=c.cube(operand_1);
-         System.out.println("Division result is : "+div_result);
+         System.out.println("Division result is : "+cube_result);
  
  
      }
