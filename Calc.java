@@ -43,6 +43,27 @@ class Calc{
      float division(float operand_1,float operand_2){
          return(operand_1/operand_2);
      }
+
+     /**
+      * The function "square" takes a float number as input and returns the square of that number.
+      * 
+      * @param operand_1 A float value that represents the operand to be squared.
+      * @return the square of the operand_1 value.
+      */
+     float square(float operand_1){
+        return operand_1*operand_1;
+     }
+
+     /**
+      * The function "cube" takes a float value as input and returns the cube of that value.
+      * 
+      * @param operand_1 The parameter "operand_1" is a float value that represents the number that we
+      * want to calculate the cube of.
+      * @return The cube of the operand_1 value.
+      */
+     float cube(float operand_1){
+        return square(operand_1)*operand_1;
+     }
  
      // The code `public static void main(String[] args)` is the main method in Java. It is the entry
      // point of the program and is automatically called when the program is executed.
@@ -77,6 +98,19 @@ class Calc{
  
          float div_result=c.division(operand_1,operand_2);
          System.out.println("Division result is : "+div_result);
+
+         // The code `float square_result=c.square(operand_1);` is calling the `square` method of the
+         // `Calc` class and passing `operand_1` as an argument. It assigns the returned value to the
+         // variable `square_result`, which will hold the square of `operand_1`.
+         float square_result=c.square(operand_1);
+         System.out.println("Division result is : "+div_result);
+ 
+         // The code `float cube_result=c.cube(operand_1);` is calling the `cube` method of the `Calc`
+         // class and passing `operand_1` as an argument. It assigns the returned value to the variable
+         // `cube_result`, which will hold the cube of `operand_1`.
+         float cube_result=c.cube(operand_1);
+         System.out.println("Division result is : "+div_result);
+ 
  
      }
  }
